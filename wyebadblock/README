@@ -1,0 +1,1 @@
+To enable adblocking, create a symbolic link between /usr/share/wyebadblock/easylist.txt and ~/.config/wyebadblock

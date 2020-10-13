@@ -1,0 +1,25 @@
+# Description: SpaceFM is a multi-panel tabbed file and desktop manager for Linux.
+# URL: http://ignorantguru.github.io/spacefm/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: desktop-file-utils ffmpegthumbnailer gtk udev xorg-libxdamage
+
+name=spacefm
+version=1.0.6
+release=1
+source=(https://github.com/IgnorantGuru/$name/archive/$version.tar.gz Makefile.in.patch)
+
+build() {
+		cd $name-$version/src
+		patch -p1 -i $SRC/Makefile.in.patch
+		
+		cd ..
+		CONFIG_SHELL=/bin/bash ./configure \
+				--prefix=/usr \
+				--disable-nls \
+				--disable-pixmaps \
+				--with-gtk2
+		make
+		make DESTDIR=$PKG install
+
+		rm -r $PKG/usr/share/{locale,doc}
+}

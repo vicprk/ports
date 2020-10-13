@@ -1,0 +1,9 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/wyebab
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/wyebrowser/
+-rwxr-xr-x	root/root	usr/lib/wyebrowser/adblock.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/wyebadblock/
+-rw-rw-r--	root/root	usr/share/wyebadblock/easylist.txt

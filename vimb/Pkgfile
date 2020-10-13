@@ -1,0 +1,16 @@
+# Description: The Vim like browser
+# URL: https://fanglingsu.github.io/vimb/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: webkitgtk
+# Optional: wyebadblock
+
+name=vimb
+version=3.6.0
+release=1
+source=(https://github.com/fanglingsu/vimb/archive/3.6.0.tar.gz)
+
+build() {
+	cd $name-$version
+	make PREFIX=/usr
+	make PREFIX=/usr DESTDIR=$PKG install
+}

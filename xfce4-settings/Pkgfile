@@ -1,0 +1,30 @@
+# Description: Settings manager of the Xfce desktop
+# URL:         https://www.xfce.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  libxfce4ui exo garcon libcanberra libnotify libxklavier colord adwaita-icon-theme cantarell-fonts font-adobe-source-code-pro-fonts
+# Section:     xfce
+
+name=xfce4-settings
+version=4.14.3
+release=1
+source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--enable-libnotify \
+		--enable-libxklavier \
+		--enable-pluggable-dialogs \
+		--enable-sound-settings \
+		--enable-xcursor \
+		--enable-xrandr \
+		--disable-debug \
+		--disable-upower-glib
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,13 @@
+# Description:
+# URL:
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=
+version=
+release=1
+source=()
+
+build() {
+}
+

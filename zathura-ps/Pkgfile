@@ -1,0 +1,16 @@
+# Description:  adds PS support to zathura
+# URL:  http://pwmt.org/projects/zathura-ps
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  libspectre, zathura
+
+name=zathura-ps
+version=0.2.6
+release=2
+source=(http://pwmt.org/projects/$name/download/$name-$version.tar.xz)
+
+build() {
+    cd "$name-$version"
+	
+	meson build --prefix=/usr
+	DESTDIR=$PKG ninja -C build install
+}

@@ -1,0 +1,22 @@
+# Description: Commonly used Xfce widgets among Xfce applications
+# URL:         https://www.xfce.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  libsm xfconf gtk3 gtk2 startup-notification
+# Section:     xfce
+
+name=libxfce4ui
+version=4.14.1
+release=1
+source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--disable-debug
+	make
+	make DESTDIR=$PKG install
+}

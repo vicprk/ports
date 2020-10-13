@@ -1,0 +1,6 @@
+#!/bin/sh
+
+getent passwd sndiod  ||
+useradd -r -g audio -s /sbin/nologin -d /var/run/sndiod sndiod
+
+# EOF

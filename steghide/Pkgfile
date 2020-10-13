@@ -1,0 +1,20 @@
+# Description:  A steganography program that is able to hide data in various kinds of image- and audio-files
+# URL:  http://steghide.sourceforge.net/
+# Maintainer:  victor, victorpr at vivaldi dot net
+# Depends on: mhash libmcrypt
+
+name=steghide
+version=0.5.1
+release=4
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2 float-constexpr.diff climit.diff template-headers.diff)
+
+build() {
+    cd $name-$version
+
+    cat $SRC/*.diff | patch -Np1
+    CONFIG_SHELL=/bin/bash CXX='g++ -std=c++11' ./configure --prefix=/usr --mandir=/usr/share/man
+    make
+    make DESTDIR=$PKG PREFIX=/usr MANDIR=/usr/share/man install
+
+    rm -rf $PKG/usr/share/{doc,locale}
+}

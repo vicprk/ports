@@ -1,0 +1,18 @@
+# Description: An adblock extension using the easylist.txt for wyeb, also webkit2gtk browsers.
+# URL: https://github.com/jun7/wyebadblock#
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: webkitgtk
+
+name=wyebadblock
+version=master
+release=1
+source=(https://github.com/jun7/wyebadblock/archive/master.zip
+		https://easylist.to/easylist/easylist.txt)
+
+build() {
+	cd $name-$version
+	make
+	make DESTDIR=$PKG install
+
+	install -D -m 664 $SRC/easylist.txt $PKG/usr/share/wyebadblock/easylist.txt 
+}

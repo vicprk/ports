@@ -1,0 +1,14 @@
+# Description: Small screen temperature setter
+# URL: https://flak.tedunangst.com/post/sct-set-color-temperature
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: xorg-libx11 xorg-libxrandr
+
+name=sct
+version=1
+release=1
+source=(https://flak.tedunangst.com/files/sct.c)
+
+build() {
+install -d $PKG/usr/bin
+cc -std=c99 -O2 -o $PKG/usr/bin/sct sct.c -lm -lX11 -lXrandr
+}

@@ -1,0 +1,21 @@
+# Description:  Small audio and MIDI framework
+# URL:  http://www.sndio.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: alsa-lib 
+
+name=sndio
+version=1.7.0
+release=1
+source=(http://www.$name.org/sndio-$version.tar.gz
+		sndio.rc)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --mandir=/usr/share/man
+	make
+	install -d -m 755 $PKG/var/run/sndiod
+	make DESTDIR=$PKG install
+	
+	install -d $PKG/etc/rc.d
+	install -D -m 755 $SRC/$name.rc $PKG/etc/rc.d/$name
+}
