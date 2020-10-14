@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  intltool gobject-introspection vala
-# Section:     xfce
+
 
 name=libxfce4util
 version=4.14.0

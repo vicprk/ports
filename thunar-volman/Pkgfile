@@ -2,7 +2,7 @@
 # URL:         https://goodies.xfce.org/projects/thunar-plugins/thunar-volman
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  thunar
-# Section:     xfce
+
 
 name=thunar-volman
 version=0.9.5

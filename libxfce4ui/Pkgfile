@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  libsm xfconf gtk3 gtk2 startup-notification
-# Section:     xfce
+
 
 name=libxfce4ui
 version=4.14.1

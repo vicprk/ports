@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  intltool xorg-apps libxfce4ui libwnck xfdesktop desktop-file-utils shared-mime-info polkit
-# Section:     xfce
+
 
 name=xfce4-session
 version=4.14.2

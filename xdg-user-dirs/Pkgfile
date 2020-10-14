@@ -2,7 +2,7 @@
 # URL:         https://www.freedesktop.org/wiki/Software/xdg-user-dirs
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  systemd
-# Section:     x11
+
 
 name=xdg-user-dirs
 version=0.17

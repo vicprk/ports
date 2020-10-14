@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  libxfce4ui garcon
-# Section:     xfce
+
 
 name=xfce4-appfinder
 version=4.14.0

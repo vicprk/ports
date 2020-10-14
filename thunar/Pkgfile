@@ -2,7 +2,7 @@
 # URL:         https://docs.xfce.org/xfce/thunar/start
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  libxfce4ui exo libgudev libnotify libexif xfce4-panel desktop-file-utils
-# Section:     xfce
+
 
 name=thunar
 version=1.8.15

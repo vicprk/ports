@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  perl-uri libxfce4ui
-# Section:     xfce
+
 
 name=exo
 version=0.12.11

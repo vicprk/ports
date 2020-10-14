@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  libxfce4util
-# Section:     xfce
+
 
 name=xfconf
 version=4.14.3

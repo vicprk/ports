@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  libxfce4ui exo garcon libwnck desktop-file-utils
-# Section:     xfce
+
 
 name=xfce4-panel
 version=4.14.4

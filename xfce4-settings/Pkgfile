@@ -1,8 +1,8 @@
 # Description: Settings manager of the Xfce desktop
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on:  libxfce4ui exo garcon libcanberra libnotify libxklavier colord adwaita-icon-theme cantarell-fonts font-adobe-source-code-pro-fonts
-# Section:     xfce
+# Depends on:  libxfce4ui exo garcon libcanberra libnotify libxklavier colord adwaita-icon-theme
+
 
 name=xfce4-settings
 version=4.14.3

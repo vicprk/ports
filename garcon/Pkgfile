@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  python libxfce4ui
-# Section:     xfce
+
 
 name=garcon
 version=0.6.4

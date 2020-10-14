@@ -2,7 +2,7 @@
 # URL:         https://www.freedesktop.org/wiki/Software/polkit/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  intltool polkit gtk3
-# Section:     gnome
+
 
 name=polkit-gnome
 version=0.105

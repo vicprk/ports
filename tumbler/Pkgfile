@@ -2,7 +2,7 @@
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  intltool gdk-pixbuf poppler
-# Section:     xfce
+
 
 name=tumbler
 version=0.3.0

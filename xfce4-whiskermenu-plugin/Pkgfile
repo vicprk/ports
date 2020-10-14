@@ -2,7 +2,7 @@
 # URL:         https://gottcode.org/xfce4-whiskermenu-plugin/
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  cmake ninja xfce4-panel
-# Section:     xfce
+
 
 name=xfce4-whiskermenu-plugin
 version=2.4.6
