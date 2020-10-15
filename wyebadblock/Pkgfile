@@ -5,7 +5,7 @@
 
 name=wyebadblock
 version=master
-release=1
+release=3
 source=(https://github.com/jun7/wyebadblock/archive/master.zip
 		https://easylist.to/easylist/easylist.txt)
 

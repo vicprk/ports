@@ -5,7 +5,7 @@
 
 name=sct
 version=1
-release=1
+release=3
 source=(https://flak.tedunangst.com/files/sct.c)
 
 build() {

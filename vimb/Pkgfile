@@ -6,7 +6,7 @@
 
 name=vimb
 version=3.6.0
-release=1
+release=3
 source=(https://github.com/fanglingsu/vimb/archive/3.6.0.tar.gz)
 
 build() {

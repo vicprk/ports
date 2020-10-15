@@ -1,13 +1,13 @@
-# Description: Flexible, easy-to-use configuration management system
+# Description: A session manager for Xfce
 # URL:         https://www.xfce.org/
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on:  libxfce4util
+# Depends on: xfce4-panel
 
 
-name=xfconf
-version=4.14.3
+name=xfce4-battery-plugin
+version=1.1.3
 release=3
-source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
@@ -16,8 +16,7 @@ build() {
 		--libexecdir=/usr/lib/xfce4 \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--disable-debug \
-		--disable-nls
+		--disable-debug
 	make
 	make DESTDIR=$PKG install
 }

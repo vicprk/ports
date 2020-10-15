@@ -6,7 +6,7 @@
 
 name=xfce4-settings
 version=4.14.3
-release=1
+release=3
 source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
@@ -24,7 +24,8 @@ build() {
 		--enable-xcursor \
 		--enable-xrandr \
 		--disable-debug \
-		--disable-upower-glib
+		--disable-upower-glib \
+		--disable-nls
 	make
 	make DESTDIR=$PKG install
 }

@@ -17,7 +17,8 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib/polkit-gnome \
 		--sysconfdir=/etc \
-		--localstatedir=/var
+		--localstatedir=/var \
+		--disable-nls
 	make
 	make DESTDIR=$PKG install
 

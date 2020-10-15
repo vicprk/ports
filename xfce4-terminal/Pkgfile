@@ -6,14 +6,15 @@
 
 name=xfce4-terminal
 version=0.8.9.2
-release=2
+release=3
 source=(https://archive.xfce.org/src/apps/$name/${version%.*.*}/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-nls
 	make
 	make DESTDIR=$PKG install
 }

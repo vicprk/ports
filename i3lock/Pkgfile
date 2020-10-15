@@ -5,7 +5,7 @@
 
 name=i3lock
 version=2.12
-release=1
+release=3
 source=(https://i3wm.org/$name/$name-$version.tar.bz2)
 
 build() {

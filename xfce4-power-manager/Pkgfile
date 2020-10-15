@@ -3,10 +3,9 @@
 # Maintainer: victor, victorpr at vivaldi dot net
 # Depends on:  intltool upower libnotify xfce4-panel
 
-
 name=xfce4-power-manager
 version=1.6.6
-release=1
+release=3
 source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
@@ -17,7 +16,8 @@ build() {
 		--libexecdir=/usr/lib \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--disable-debug
+		--disable-debug \
+		--disable-nls
 	make
 	make DESTDIR=$PKG install
 }

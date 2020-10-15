@@ -6,7 +6,7 @@
 
 name=zathura-pdf-poppler
 version=0.3.0
-release=1
+release=3
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
 build() {
