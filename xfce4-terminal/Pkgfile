@@ -1,7 +1,7 @@
 # Description: Terminal emulator for the Xfce desktop
 # URL:         https://goodies.xfce.org/projects/applications/xfce4-terminal
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on:  libxfce4ui vte font-adobe-source-code-pro-fonts
+# Depends on:  libxfce4ui vte3
 
 
 name=xfce4-terminal
