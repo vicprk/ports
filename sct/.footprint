@@ -1,3 +1,3 @@
-drwxr-xr-x	vic/users	usr/
-drwxr-xr-x	vic/users	usr/bin/
--rwxr-xr-x	vic/users	usr/bin/sct
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/sct

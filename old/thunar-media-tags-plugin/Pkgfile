@@ -1,0 +1,22 @@
+# Description: Media tag editor for Thunar
+# URL: https://www.xfce.org
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=thunar-media-tags-plugin
+version=0.3.0
+release=3
+source=(https://archive.xfce.org/src/thunar-plugins/$name/0.3/$name-$version.tar.bz2)
+
+build() {
+		cd $name-$version
+
+		./configure \
+				--prefix=/usr \
+				--sysconfdir=/etc \
+				--disable-nls 
+
+		make
+		make DESTDIR=$PKG install
+}
+

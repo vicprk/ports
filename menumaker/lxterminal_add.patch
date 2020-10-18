@@ -1,0 +1,51 @@
+diff -ruN ./MenuMaker/__init__.py /home/vic/.local/share/menumaker/MenuMaker/__init__.py
+--- ./MenuMaker/__init__.py	2020-10-18 16:54:26.000000000 -0300
++++ /home/vic/.local/share/menumaker/MenuMaker/__init__.py	2020-10-18 16:54:05.693862346 -0300
+@@ -38,7 +38,7 @@
+     (T.xterm, KwS("Xterm")),
+     (T._xfterm, KwS("Xfterm")),
+     (T.xvt, KwS("Xvt")),
+-    (T.rxvt, KwS("Rxvt")),
++    (T.rxvt, KwS("Rxvt", "Urxvt")),
+     (T.aterm, KwS("Aterm")),
+     (T.wterm, KwS("Wterm")),
+     (T.Eterm, KwS("Eterm")),
+@@ -48,6 +48,7 @@
+     (T.st, KwS("ST")),
+     (T.alacritty, KwS("Alacritty")),
+     (T.qterminal, KwS("QTerminal")),
++    (T.lxterminal, KwS("LXTerminal")),
+ ]
+ 
+ 
+diff -ruN ./Prophet/Legacy/Shell.py /home/vic/.local/share/menumaker/Prophet/Legacy/Shell.py
+--- ./Prophet/Legacy/Shell.py	2020-10-18 16:54:26.000000000 -0300
++++ /home/vic/.local/share/menumaker/Prophet/Legacy/Shell.py	2020-10-18 16:54:05.682862346 -0300
+@@ -100,7 +100,6 @@
+     comment = "Lightweight Qt-based terminal emulator"
+     keywords = KwS(TerminalEmulator)
+ 
+-
+ class rdesktop(_App, _X11App):
+     name = "Rdesktop"
+     comment = "MS Windows terminal client"
+@@ -115,6 +114,7 @@
+ 
+ class rxvt(_Terminal):
+     name = "Rxvt"
++    exes = [ "rxvt" , "urxvt" ]
+     comment = "Our X terminal emulator"
+     keywords = KwS(TerminalEmulator)
+ 
+@@ -186,6 +186,11 @@
+     comment = "X terminal emulator"
+     keywords = KwS(TerminalEmulator)
+ 
++class lxterminal(_Terminal):
++    name = "LXTerminal"
++    comment = "LXDE terminal emulator"
++    keywords = KwS(TerminalEmulator)
++
+ 
+ class xwc(_App, _X11App):
+     name = "XWinCommander"

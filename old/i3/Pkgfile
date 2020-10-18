@@ -1,0 +1,20 @@
+# Description: A tiling window manager
+# URL:         https://i3wm.org/
+# Maintainer:  victor, victorpr at vivaldi dot net
+# Depends on: startup-notification xorg-xcb-util-keysyms xorg-xcb-util-wm xorg-xcb-util-cursor yajl libev pango libxkbcommon cairo xorg-xcb-util-xrm
+
+name=i3
+version=4.18.2
+release=3
+source=(http://i3wm.org/downloads/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+    ./configure --prefix=/usr
+	cd x86_64-pc-linux-gnu/
+    make
+    make DESTDIR=$PKG install
+    install -d $PKG/usr/share/man/man1
+	install -m 0644 ../man/*.1 $PKG/usr/share/man/man1/
+}

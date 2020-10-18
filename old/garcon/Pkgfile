@@ -1,0 +1,23 @@
+# Description: Implementation of the freedesktop.org menu specification
+# URL:         https://www.xfce.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  python libxfce4ui
+
+
+name=garcon
+version=0.6.4
+release=3
+source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--disable-debug \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+}

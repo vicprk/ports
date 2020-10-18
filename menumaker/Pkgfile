@@ -1,0 +1,24 @@
+# Description: MenuMaker is a menu generation utility for X window managers on *NIX systems
+# URL:http://menumaker.sourceforge.net/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  python
+
+name=menumaker
+version=0.99.12
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name-$version.tar.gz
+		lxterminal_add.patch)
+
+build() {
+	cd $name-$version
+	patch -p0 -i $SRC/lxterminal_add.patch
+	./configure \
+			--prefix=/usr
+
+	mkdir -p $PKG/usr/bin
+	sed -i 's|#!/usr/bin/env python|#!/usr/bin/env python2\nimport sys; sys.path = ["/usr/share/menumaker"] + sys.path|' ./mmaker
+
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/info
+}
+

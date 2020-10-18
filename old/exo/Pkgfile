@@ -1,0 +1,21 @@
+# Description: Application library for Xfce
+# URL:         https://www.xfce.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:  perl-uri libxfce4ui
+
+
+name=exo
+version=0.12.11
+release=3
+source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-debug \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+}
