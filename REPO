@@ -23,6 +23,7 @@ d:keybinder
 d:steghide
 d:libfm
 d:vimb
+d:firefox-bin
 d:sct
 d:lxappearance
 d:xdg-user-dirs
@@ -60,7 +61,7 @@ f:6d3991baa62373ef839bc5d76e38b2cc:lxmenu-data/.md5sum
 f:483faf3b6bdc80039f3c343de4e8c6fa:lxmenu-data/Pkgfile
 f:0aec872de5dbe280cd3948b8ae02c4ab:lxterminal/.footprint
 f:ea10ff1dc79e637f3e884a53b71bd7dd:lxterminal/.md5sum
-f:651c617bd5dd6df1895383ff38fee01e:lxterminal/Pkgfile
+f:2a00b3a45ba475b2ef48e660ba189b6f:lxterminal/Pkgfile
 f:8b4bcb706397ba15d1e64fdeca6edd14:polkit-gnome/.footprint
 f:59d428bfb42568ac362c429faca38fe5:polkit-gnome/.md5sum
 f:9610dac3f64b0424bfd53a6a9da61188:polkit-gnome/Pkgfile
@@ -113,6 +114,11 @@ f:931d0235b653306ac37dd026607cc46f:libfm/Pkgfile
 f:7174abc5c59247efc7bf8dcb14855a22:vimb/.footprint
 f:dee16c65f5ff0b46e6d6796945417e22:vimb/.md5sum
 f:280921e02c23104bd2b6e0c4d391353e:vimb/Pkgfile
+f:e081d45dcd96d0f2301b685d598b0c2f:firefox-bin/.footprint
+f:275b3f549209dd480e4c05b3fa14b57a:firefox-bin/firefox.desktop
+f:a5e1ff7de93ad72b1ee6e31ab8233e45:firefox-bin/.md5sum
+f:82378b1b87b86c5c9295ddd5d5e8dbe6:firefox-bin/Pkgfile
+f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
 f:3a68d31ceeef766871cd7e22f13e9d3f:sct/.footprint
 f:29241d60be11b01bdd378091a42132fd:sct/.md5sum
 f:b170d2ef439ec72b06329e012b5e4f24:sct/Pkgfile
