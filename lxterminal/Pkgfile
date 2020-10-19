@@ -12,6 +12,7 @@ build() {
 	cd $name-$version
 	sed -ri '/^ +init/s/init/return init/' src/unixsocket.c
 	./configure --prefix=/usr
+
 	make
 	make DESTDIR=$PKG install
 	rm -fr $PKG/usr/share/locale
