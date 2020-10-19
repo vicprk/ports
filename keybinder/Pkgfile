@@ -1,0 +1,20 @@
+# Description: A library for registering global keybindings
+# URL: https://github.com/kupferlauncher/keybinder
+# Packager:  Cory Burgett, cmburget at gmail dot com
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: gtk3 gobject-introspection
+
+name=keybinder
+version=0.3.1
+release=1
+source=(https://github.com/kupferlauncher/keybinder/releases/download/v$version/keybinder-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --disable-lua
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/gtk-doc
+}

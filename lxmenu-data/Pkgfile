@@ -1,0 +1,17 @@
+# Description: Freedesktop.org menu spec-compliant desktop menus for LXDE
+# URL: http://lxde.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+
+name=lxmenu-data
+version=0.1.5
+release=1
+source=(https://downloads.sourceforge.net/lxde/lxmenu-data-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure \
+			--prefix=/usr \
+			--sysconfdir=/etc
+
+	make DESTDIR=$PKG install
+}

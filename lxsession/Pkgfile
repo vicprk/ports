@@ -1,0 +1,19 @@
+# Description: Default session manager for LXDE
+# URL: http://lxde.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: dbus-glib libunique lsb-release polkit gtk vala
+
+name=lxsession
+version=0.5.5
+release=1
+source=(https://downloads.sourceforge.net/lxde/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure \
+			--prefix=/usr \
+			--libexecdir=/usr/lib
+
+	make DESTDIR=$PKG install
+	rm -fr $PKG/usr/share/locale
+}
