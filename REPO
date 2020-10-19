@@ -17,7 +17,6 @@ d:lxpanel
 d:pcmanfm
 d:wyebadblock
 d:menumaker
-d:tint2
 d:zathura-pdf-poppler
 d:zathura-ps
 d:keybinder
@@ -95,10 +94,6 @@ f:bac06d4b7d957185a5f58a045301e857:menumaker/.footprint
 f:bcf512bf57690374ed5be58896316109:menumaker/.md5sum
 f:8c51c19e1116a7293ad1ef2cf607c525:menumaker/Pkgfile
 f:7535aae3a3c6794caeaef87f4e7c492f:menumaker/lxterminal_add.patch
-f:5c40dc944474ae516f0b1776c8ede646:tint2/.footprint
-f:e59641006ee258ab189231789690703a:tint2/.md5sum
-f:0d84015340c5fa7cb8e78b101229b7d6:tint2/Pkgfile
-f:665935c7f0390c47e30cf972aca6cd53:tint2/.signature
 f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
 f:967d8e263bc3f6b4ab0ef13cd04b735e:zathura-pdf-poppler/.md5sum
 f:e27669925ec81466e6835cf995e34c54:zathura-pdf-poppler/Pkgfile
