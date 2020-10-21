@@ -1,0 +1,27 @@
+    lxqt-build-tools
+I
+    libqtxdg
+II
+    liblxqt
+    libsysstat
+III
+    libfm-qt
+    lxqt-themes
+    lxqt-qtplugin
+    qtermwidget
+IV
+    lximage-qt
+    lxqt-about
+    lxqt-admin
+    lxqt-config
+    lxqt-globalkeys
+    lxqt-notificationd
+    lxqt-policykit
+    lxqt-session
+    lxqt-sudo
+    pcmanfm-qt
+    qterminal
+V
+    lxqt-panel
+    lxqt-powermanagement
+    lxqt-runner

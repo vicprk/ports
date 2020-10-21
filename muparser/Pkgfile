@@ -1,0 +1,16 @@
+# URL: http://beltoforion.de/en/muparser
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=muparser
+version=2.3.2
+release=1
+source=(https://github.com/beltoforion/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cmake $name-$version \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	make && make DESTDIR=$PKG install
+}
+

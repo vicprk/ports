@@ -1,0 +1,24 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/saidar
+-rwxr-xr-x	root/root	usr/bin/statgrab
+-rwxr-xr-x	root/root	usr/bin/statgrab-make-mrtg-config
+-rwxr-xr-x	root/root	usr/bin/statgrab-make-mrtg-index
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/statgrab.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libstatgrab.la
+lrwxrwxrwx	root/root	usr/lib/libstatgrab.so -> libstatgrab.so.10.0.1
+lrwxrwxrwx	root/root	usr/lib/libstatgrab.so.10 -> libstatgrab.so.10.0.1
+-rwxr-xr-x	root/root	usr/lib/libstatgrab.so.10.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libstatgrab.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/libstatgrab/
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/AUTHORS
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/COPYING
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/COPYING.LGPL
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/NEWS
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/PLATFORMS
+-rw-r--r--	root/root	usr/share/doc/libstatgrab/README

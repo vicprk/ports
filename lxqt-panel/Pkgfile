@@ -1,0 +1,19 @@
+# URL:https://lxqt.github.io
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: xorg-libxcomposite libdbusmenu-qt5 kguiaddons kwindowsystem solid menu-cache lxmenu-data liblxqt lxqt-globalkeys alsa-lib libstatgrab libsysstat
+
+name=lxqt-panel
+version=0.15.1
+release=1
+source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cmake $name-$version \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DVOLUME_USE_PULSEAUDIO=off \
+		-DPULL_TRANSLATIONS=off
+
+	make && make DESTDIR=$PKG install
+}
+

@@ -1,0 +1,15 @@
+# Description: Stupid-simple application launcher
+# URL: https://github.com/silverhammermba/launch
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=launch
+version=1.0.1
+release=1
+source=(https://github.com/silverhammermba/launch/raw/nix/launch.c)
+
+build() {
+		make launch
+		install -D -m 775 launch $PKG/usr/bin/launch
+}
+

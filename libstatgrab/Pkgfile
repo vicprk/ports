@@ -1,0 +1,22 @@
+# Description: A cross platform library for accessing system statistics 
+# URL:https://libstatgrab.org/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=libstatgrab
+version=0.9.2
+release=LIBSTATGRAB_0_92
+source=(https://github.com/libstatgrab/$name/archive/$release.tar.gz)
+
+build() {
+		cd $name-$release
+		
+		./autogen.sh
+		./configure \
+				--prefix=/usr \
+				--disable-man \
+				--disable-static
+
+		make && make DESTDIR=$PKG install
+}
+

@@ -1,0 +1,18 @@
+# Description: Qt5 MPD client
+# URL:https://github.com/CDrummond/cantata
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: qt5 libmpdclient
+# Optional: taglib libmtp ffmpeg libcdio-paranoia avahi
+
+name=cantata
+version=2.4.2
+release=1
+source=(https://github.com/CDrummond/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+		cmake $name-$version \
+				-DCMAKE_INSTALL_PREFIX=/usr \
+				-DCMAKE_BUILD_TYPE=Release
+		make && make DESTDIR=$PKG install
+}
+

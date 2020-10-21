@@ -1,0 +1,18 @@
+# URL:https://lxqt.github.io
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: qt5
+# Optional:gtk
+
+name=libqtxdg
+version=3.5.0
+release=1
+source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cmake $name-$version \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	make && make DESTDIR=$PKG install
+}
+
