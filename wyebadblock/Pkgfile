@@ -9,7 +9,8 @@ release=3
 source=(https://github.com/jun7/wyebadblock/archive/master.zip
 		https://easylist.to/easylist/easylist.txt)
 
-build() {
+build()
+{
 	cd $name-$version
 	make
 	make DESTDIR=$PKG install

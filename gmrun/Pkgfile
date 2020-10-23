@@ -8,13 +8,13 @@ version=0.9.5w
 release=1
 source=(https://github.com/wdlkmpx/$name/archive/$version.tar.gz)
 
-build() {
+build()
+{
 		cd $name-$version
 		./autogen.sh
 		./configure \
 				--prefix=/usr \
 				--sysconfdir=/etc
-		make
-		make DESTDIR=$PKG install
+		make && make DESTDIR=$PKG install
 }
 

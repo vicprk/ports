@@ -9,7 +9,8 @@ release=3
 source=(http://www.$name.org/sndio-$version.tar.gz
 		sndio.rc)
 
-build() {
+build()
+{
 	cd $name-$version
 	./configure --prefix=/usr --mandir=/usr/share/man
 	make

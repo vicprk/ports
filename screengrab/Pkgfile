@@ -7,7 +7,8 @@ version=2.0.1
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 
-build() {
+build()
+{
 	cmake $name-$version \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DPULL_TRANSLATIONS=off

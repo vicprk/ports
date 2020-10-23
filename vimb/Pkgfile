@@ -9,7 +9,8 @@ version=3.6.0
 release=3
 source=(https://github.com/fanglingsu/vimb/archive/3.6.0.tar.gz)
 
-build() {
+build()
+{
 	cd $name-$version
 	make PREFIX=/usr
 	make PREFIX=/usr DESTDIR=$PKG install

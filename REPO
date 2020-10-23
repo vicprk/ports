@@ -22,7 +22,6 @@ d:lxqt-runner
 d:lxqt-config
 d:zathura-pdf-poppler
 d:zathura-ps
-d:keybinder
 d:qtermwidget
 d:gmrun
 d:steghide
@@ -48,7 +47,6 @@ d:lxqt-notificationd
 d:spacefm
 d:libqtxdg
 d:liblxqt
-d:notification-daemon
 d:girara
 d:libstatgrab
 f:cef02fedcd795ba5863badd9eb2cb0f2:freefont/.footprint
@@ -103,8 +101,6 @@ f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
 f:967d8e263bc3f6b4ab0ef13cd04b735e:zathura-pdf-poppler/.md5sum
 f:dc946177c3e1057591b8951b35cefb57:zathura-ps/.footprint
 f:d54c24d09345bb3c0e94315971a51349:zathura-ps/.md5sum
-f:e7292e0c92bd16939349fe28d00f5e8e:keybinder/.footprint
-f:cf0711f7779d38df123a9420158c2c5b:keybinder/.md5sum
 f:9bb2b5b09637a80de7ecc97da6b3b7ed:qtermwidget/.footprint
 f:cb2d9390284a60a3c84a2a036107e5c2:qtermwidget/.md5sum
 f:805a710ac8b1d0c007316488c54b82c1:gmrun/.footprint
@@ -164,8 +160,6 @@ f:dbd5ad72651fc882bbabdfe68443035c:libqtxdg/.footprint
 f:acdaa0eafb491670099fa576bbf46e7b:libqtxdg/.md5sum
 f:f07f706584dda93386b90a9870483cd3:liblxqt/.footprint
 f:bd5b9200570113635012bb7220d8aee5:liblxqt/.md5sum
-f:76f1d9ff03eae41b4cd94691780f4fbf:notification-daemon/.footprint
-f:eeb5bc14780c9917254e1b196ab58b83:notification-daemon/.md5sum
 f:67082e220c51ac7eaabf571dda4e37d5:girara/.footprint
 f:1f49de1622aedd5b91e71a9166caef16:girara/.md5sum
 f:8b2ec9f20ae6b5385a77ed4a20a2a2bd:libstatgrab/.footprint

@@ -9,7 +9,8 @@ release=1
 source=(https://sourceforge.net/projects/$name/files/$name-$version.tar.gz
 		lxterminal_add.patch)
 
-build() {
+build()
+{
 	cd $name-$version
 	patch -p0 -i $SRC/lxterminal_add.patch
 	./configure \

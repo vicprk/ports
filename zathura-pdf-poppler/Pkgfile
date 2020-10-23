@@ -9,7 +9,8 @@ version=0.3.0
 release=3
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
-build() {
+build()
+{
 	cd ${name}-${version}
 
 	meson build --prefix=/usr

@@ -8,7 +8,8 @@ version=1
 release=3
 source=(https://flak.tedunangst.com/files/sct.c)
 
-build() {
+build()
+{
 install -d $PKG/usr/bin
 cc -std=c99 -O2 -o $PKG/usr/bin/sct sct.c -lm -lX11 -lXrandr
 }
