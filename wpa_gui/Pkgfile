@@ -1,0 +1,26 @@
+# URL:https://w1.fi/wpa_supplicant/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:wpa_supplicant qt5 libxml libxml2 desktop-file-utils libnl
+
+name=wpa_gui
+version=2.9
+release=1
+source=(https://w1.fi/releases/wpa_supplicant-$version.tar.gz)
+
+build()
+{
+cd wpa_supplicant-$version/wpa_supplicant
+
+pushd wpa_gui-qt4
+qmake wpa_gui.pro
+make
+popd
+
+mkdir -p $PKG/usr/{bin,share}/{man/man8,applications,pixmaps}
+
+install -v -m755 wpa_gui-qt4/wpa_gui $PKG/usr/bin/
+install -v -m644 doc/docbook/wpa_gui.8 $PKG/usr/share/man/man8/
+install -v -m644 wpa_gui-qt4/wpa_gui.desktop $PKG/usr/share/applications/
+install -v -m644 wpa_gui-qt4/icons/wpa_gui.svg $PKG/usr/share/pixmaps/
+}
+

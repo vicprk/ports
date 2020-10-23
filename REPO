@@ -29,6 +29,7 @@ d:debootstrap
 d:firefox-bin
 d:sct
 d:lxqt-powermanagement
+d:wpa_gui
 d:lxqt-session
 d:libfm-qt
 d:xdg-user-dirs
@@ -116,6 +117,8 @@ f:3a68d31ceeef766871cd7e22f13e9d3f:sct/.footprint
 f:29241d60be11b01bdd378091a42132fd:sct/.md5sum
 f:f867cc8b0770f0761cbbe7f3c7b41ebf:lxqt-powermanagement/.footprint
 f:2bf81bd976ec4f943c4e4df096c9a962:lxqt-powermanagement/.md5sum
+f:c8ef90ad15f956a4f8052c7dfd5d3ee6:wpa_gui/.footprint
+f:10c830396d7e7ceb249b5bc190c9d457:wpa_gui/.md5sum
 f:b1aab088446f49173ec5e9d19db643b1:lxqt-session/.footprint
 f:1d1dbba1b445e4182b7f1ea9977a6b1d:lxqt-session/.md5sum
 f:718a243dddc374c03d78c5c5a85d7375:libfm-qt/.footprint
