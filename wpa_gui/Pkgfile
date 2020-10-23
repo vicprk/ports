@@ -16,7 +16,7 @@ qmake wpa_gui.pro
 make
 popd
 
-mkdir -p $PKG/usr/{bin,share}/{man/man8,applications,pixmaps}
+mkdir -p $PKG/usr/{bin,share/{man/man8,applications,pixmaps}}
 
 install -v -m755 wpa_gui-qt4/wpa_gui $PKG/usr/bin/
 install -v -m644 doc/docbook/wpa_gui.8 $PKG/usr/share/man/man8/
