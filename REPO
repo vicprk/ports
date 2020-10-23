@@ -3,7 +3,6 @@ d:pcmanfm-qt
 d:lxqt-about
 d:obconf-qt
 d:qps
-d:zathura
 d:lxmenu-data
 d:lxqt-archiver
 d:screengrab
@@ -20,8 +19,6 @@ d:lxqt-qtplugin
 d:lxqt-panel
 d:lxqt-runner
 d:lxqt-config
-d:zathura-pdf-poppler
-d:zathura-ps
 d:qtermwidget
 d:gmrun
 d:steghide
@@ -42,6 +39,7 @@ d:sndio
 d:muparser
 d:gtk2fontsel
 d:lximage-qt
+d:falkon
 d:lxqt-openssh-askpass
 d:lxqt-notificationd
 d:spacefm
@@ -59,8 +57,6 @@ f:62daca524810740b179a1ab76480a066:obconf-qt/.footprint
 f:9987ca20b27a42b98f1b70f6b2338f76:obconf-qt/.md5sum
 f:d0590afb4516878e6b610619831a4823:qps/.footprint
 f:ce4694c4f66ec5824443eaf0d33e9ccc:qps/.md5sum
-f:f92ee6cd58b68df8559a039e6bf8d2e9:zathura/.footprint
-f:1bdbb71e02be32748ba9e08254458535:zathura/.md5sum
 f:e5de2bbdc8591228b991274c67ebe1a8:lxmenu-data/.footprint
 f:6d3991baa62373ef839bc5d76e38b2cc:lxmenu-data/.md5sum
 f:2cbce31699507d787f50c5ddb9339ca9:lxqt-archiver/.footprint
@@ -73,8 +69,7 @@ f:772732a4b357250e9e8676bb28fc8c5a:lxqt-build-tools/.footprint
 f:a2486c9b9b8c582405312eda8329864e:lxqt-build-tools/.md5sum
 f:1f3fb6c6dacd3e17f01984d0efcee482:lxqt-themes/.footprint
 f:290ecd5e3179b164cc197e05581084d8:lxqt-themes/.md5sum
-f:a27cf18cab2ab27b8054dca8389c0e33:pkgfile
-f:b15e11146ef138107dd4859ebc1d076a:.md5sum
+f:ee461bd01503a2746eb231090dcfbfa8:pkgfile
 f:87cbda1dc42eed0924c60a2b05f6f885:menu-cache/.footprint
 f:0af5577c2daf0b26b8110cc0d87f1539:menu-cache/.md5sum
 f:2c7e4ec51294e5bf4c8da0d5cac20695:qterminal/.footprint
@@ -97,10 +92,6 @@ f:35078f602ee2c415540e8a140e21e31b:lxqt-runner/.footprint
 f:bf4c3155cc2a9a7cbced748d53cd1040:lxqt-runner/.md5sum
 f:c9be8d1da4258420d393463d6082d7ca:lxqt-config/.footprint
 f:7715aa10eae55327ac796f89b2640b02:lxqt-config/.md5sum
-f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
-f:967d8e263bc3f6b4ab0ef13cd04b735e:zathura-pdf-poppler/.md5sum
-f:dc946177c3e1057591b8951b35cefb57:zathura-ps/.footprint
-f:d54c24d09345bb3c0e94315971a51349:zathura-ps/.md5sum
 f:9bb2b5b09637a80de7ecc97da6b3b7ed:qtermwidget/.footprint
 f:cb2d9390284a60a3c84a2a036107e5c2:qtermwidget/.md5sum
 f:805a710ac8b1d0c007316488c54b82c1:gmrun/.footprint
@@ -129,6 +120,7 @@ f:b1aab088446f49173ec5e9d19db643b1:lxqt-session/.footprint
 f:1d1dbba1b445e4182b7f1ea9977a6b1d:lxqt-session/.md5sum
 f:718a243dddc374c03d78c5c5a85d7375:libfm-qt/.footprint
 f:b0cbd194b0ed988f3266fb20f5be61ba:libfm-qt/.md5sum
+f:a4c16e29ec12204a96458d9cba4f3501:dotfile_update
 f:5a1a97d9455cde54f1e1a0b66f76aba8:xdg-user-dirs/.footprint
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:d0516ceb5a6c804a5848c20df9b6b569:cantata/.footprint
@@ -148,6 +140,7 @@ f:14510ba753b0c23cc137efca0908d797:gtk2fontsel/.footprint
 f:06231fbeedd0f48db466880dae5245e5:gtk2fontsel/.md5sum
 f:6d7c0fc7d60409e0570058e0dd6990a5:lximage-qt/.footprint
 f:28fa2f6e908556376cbce6228bc60229:lximage-qt/.md5sum
+f:24f034eefaf6a5c3627d154adc37ca0c:falkon/.md5sum
 f:4cb0ffa664071898b538062de1e2493d:lxqt-openssh-askpass/.footprint
 f:7b64717aed514c047c6fcfd8105898a9:lxqt-openssh-askpass/.md5sum
 f:8547aa807d7adf13930ed5607af6970c:lxqt-notificationd/.footprint
