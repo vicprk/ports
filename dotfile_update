@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for i in $(./find); do
+		cd $i
+		pkgmk -um
+		pkgmk -uf
+done
+
+cd ~/ports
