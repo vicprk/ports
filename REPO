@@ -29,6 +29,7 @@ d:steghide
 d:libsysstat
 d:lxqt-admin
 d:vimb
+d:debootstrap
 d:firefox-bin
 d:sct
 d:lxqt-powermanagement
@@ -74,6 +75,7 @@ f:772732a4b357250e9e8676bb28fc8c5a:lxqt-build-tools/.footprint
 f:a2486c9b9b8c582405312eda8329864e:lxqt-build-tools/.md5sum
 f:1f3fb6c6dacd3e17f01984d0efcee482:lxqt-themes/.footprint
 f:290ecd5e3179b164cc197e05581084d8:lxqt-themes/.md5sum
+f:a27cf18cab2ab27b8054dca8389c0e33:pkgfile
 f:b15e11146ef138107dd4859ebc1d076a:.md5sum
 f:87cbda1dc42eed0924c60a2b05f6f885:menu-cache/.footprint
 f:0af5577c2daf0b26b8110cc0d87f1539:menu-cache/.md5sum
@@ -117,6 +119,8 @@ f:27fa0155e500960236beb64020641db0:lxqt-admin/.footprint
 f:238003fe94026b8342e5b9c3a8c7f088:lxqt-admin/.md5sum
 f:7174abc5c59247efc7bf8dcb14855a22:vimb/.footprint
 f:dee16c65f5ff0b46e6d6796945417e22:vimb/.md5sum
+f:23b9434d419691bb8f530b2901b352cc:debootstrap/.footprint
+f:cf7c154d6d77a226e85b37ec7accf986:debootstrap/.md5sum
 f:e081d45dcd96d0f2301b685d598b0c2f:firefox-bin/.footprint
 f:275b3f549209dd480e4c05b3fa14b57a:firefox-bin/firefox.desktop
 f:a5e1ff7de93ad72b1ee6e31ab8233e45:firefox-bin/.md5sum

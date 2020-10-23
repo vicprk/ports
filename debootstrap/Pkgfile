@@ -1,0 +1,16 @@
+# Description: Create a debian system from scratch without apt or dpkg
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends: wget
+# Optional: gnupg
+
+name=debootstrap
+version=1.0.123
+release=1
+source=(http://deb.debian.org/debian/pool/main/d/$name/$name\_$version.tar.gz)
+
+build()
+{
+		cd $name
+
+		make DESTDIR=$PKG install
+}
