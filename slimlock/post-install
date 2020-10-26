@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# slimlock won't be able to check our password unless we do this
+chmod u+s /sbin/unix_chkpwd

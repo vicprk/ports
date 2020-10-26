@@ -1,8 +1,10 @@
 d:freefont
 d:pcmanfm-qt
 d:lxqt-about
+d:qtstyleplugins
 d:obconf-qt
 d:qps
+d:slimlock
 d:lxmenu-data
 d:lxqt-archiver
 d:screengrab
@@ -28,6 +30,7 @@ d:vimb
 d:debootstrap
 d:firefox-bin
 d:sct
+d:ncmpcpp
 d:lxqt-powermanagement
 d:wpa_gui
 d:lxqt-session
@@ -46,7 +49,7 @@ d:lxqt-notificationd
 d:spacefm
 d:libqtxdg
 d:liblxqt
-d:girara
+d:compton-conf
 d:libstatgrab
 f:cef02fedcd795ba5863badd9eb2cb0f2:freefont/.footprint
 f:f60a92f476d09124de5ee4f865b41052:freefont/.md5sum
@@ -54,10 +57,17 @@ f:a964d988f8511f97299e270424b0ea44:pcmanfm-qt/.footprint
 f:b26ec10b9f51979f6b648a8d8479549a:pcmanfm-qt/.md5sum
 f:cd5e513bc4ad53f96fbef495a8193a24:lxqt-about/.footprint
 f:e78f7992c0e57d57d7ce2033680e02f5:lxqt-about/.md5sum
+f:ce0c6a2c35e30bdf104c69847934b583:qtstyleplugins/.footprint
+f:2af32e0b9bfaa872362639ee8d202532:qtstyleplugins/0001-fix-build-against-Qt-5.15.patch
+f:b37493576efda408ce97fe4b659d984f:qtstyleplugins/.md5sum
+f:b7a01b75f11ca38d8dae6a6f5717fabe:qtstyleplugins/0002-fix-gtk2-background.patch
 f:62daca524810740b179a1ab76480a066:obconf-qt/.footprint
 f:9987ca20b27a42b98f1b70f6b2338f76:obconf-qt/.md5sum
 f:d0590afb4516878e6b610619831a4823:qps/.footprint
 f:ce4694c4f66ec5824443eaf0d33e9ccc:qps/.md5sum
+f:b15fa5cee18a1884f9aa8035260cd86a:slimlock/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:slimlock/.md5sum
+f:aa807ef1e3a1a901e9892f7fb6980e54:slimlock/post-install
 f:e5de2bbdc8591228b991274c67ebe1a8:lxmenu-data/.footprint
 f:6d3991baa62373ef839bc5d76e38b2cc:lxmenu-data/.md5sum
 f:2cbce31699507d787f50c5ddb9339ca9:lxqt-archiver/.footprint
@@ -115,9 +125,10 @@ f:a5e1ff7de93ad72b1ee6e31ab8233e45:firefox-bin/.md5sum
 f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
 f:3a68d31ceeef766871cd7e22f13e9d3f:sct/.footprint
 f:29241d60be11b01bdd378091a42132fd:sct/.md5sum
+f:9cfa9a8128a6d50475db1f38288d818b:ncmpcpp/.footprint
 f:f867cc8b0770f0761cbbe7f3c7b41ebf:lxqt-powermanagement/.footprint
 f:2bf81bd976ec4f943c4e4df096c9a962:lxqt-powermanagement/.md5sum
-f:c8ef90ad15f956a4f8052c7dfd5d3ee6:wpa_gui/.footprint
+f:1a7ba234cae6081eea104d9eb4134727:wpa_gui/.footprint
 f:10c830396d7e7ceb249b5bc190c9d457:wpa_gui/.md5sum
 f:b1aab088446f49173ec5e9d19db643b1:lxqt-session/.footprint
 f:1d1dbba1b445e4182b7f1ea9977a6b1d:lxqt-session/.md5sum
@@ -156,7 +167,7 @@ f:dbd5ad72651fc882bbabdfe68443035c:libqtxdg/.footprint
 f:acdaa0eafb491670099fa576bbf46e7b:libqtxdg/.md5sum
 f:f07f706584dda93386b90a9870483cd3:liblxqt/.footprint
 f:bd5b9200570113635012bb7220d8aee5:liblxqt/.md5sum
-f:67082e220c51ac7eaabf571dda4e37d5:girara/.footprint
-f:1f49de1622aedd5b91e71a9166caef16:girara/.md5sum
+f:ce54deb443e3e362dd57aa7150a41773:compton-conf/.footprint
+f:3d53cfd8e8971a87819e3f1e30479003:compton-conf/.md5sum
 f:8b2ec9f20ae6b5385a77ed4a20a2a2bd:libstatgrab/.footprint
 f:6012e59c431da7ab111bbc0d6d9705ab:libstatgrab/.md5sum

@@ -1,0 +1,15 @@
+# Description: Unholy screen locker based on SLiM.
+# URL: http://programsthatsmellgood.com/slimlock/
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: xorg-libxft imlib2 linux-pam slim
+
+name=slimlock
+version=git
+release=1
+
+build ()
+{
+	git clone https://github.com/dannyn/slimlock
+    cd $name
+    make && make DESTDIR="$PKG/" MANDIR=/usr/share/man install
+}

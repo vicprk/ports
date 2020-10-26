@@ -1,9 +1,5 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-drwxr-xr-x	root/root	usr/bin/applications/
-drwxr-xr-x	root/root	usr/bin/man/
-drwxr-xr-x	root/root	usr/bin/man/man8/
-drwxr-xr-x	root/root	usr/bin/pixmaps/
 -rwxr-xr-x	root/root	usr/bin/wpa_gui
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/

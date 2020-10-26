@@ -1,0 +1,29 @@
+# URL: https://github.com/qt/qtstyleplugins
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: gtk qt5
+
+name=qtstyleplugins
+version=5.0.0
+release=1
+git_commit=335dbece103e2cbf6c7cf819ab6672c2956b17b3
+source=(https://github.com/qt/$name/archive/$git_commit.zip
+		0001-fix-build-against-Qt-5.15.patch
+		0002-fix-gtk2-background.patch
+)
+
+build()
+{
+cd $name-$git_commit
+
+for i in $SRC/*patch; do
+	patch -p1 -i $i
+done
+
+qmake \
+	PREFIX=/usr \
+	CONFIG+='nostrip' \
+	QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+	QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
+
+	make && make INSTALL_ROOT=$PKG install
+}
