@@ -11,10 +11,12 @@ d:screengrab
 d:lxqt-globalkeys
 d:lxqt-build-tools
 d:lxqt-themes
+d:featherpad
 d:menu-cache
 d:qterminal
 d:teams
 d:launch
+d:quimup
 d:wyebadblock
 d:menumaker
 d:lxqt-qtplugin
@@ -27,6 +29,7 @@ d:steghide
 d:libsysstat
 d:lxqt-admin
 d:vimb
+d:atk-32
 d:debootstrap
 d:firefox-bin
 d:sct
@@ -42,6 +45,7 @@ d:lxqt-sudo
 d:sndio
 d:muparser
 d:gtk2fontsel
+d:gdk-pixbuf-32
 d:lximage-qt
 d:falkon
 d:lxqt-openssh-askpass
@@ -49,7 +53,6 @@ d:lxqt-notificationd
 d:spacefm
 d:libqtxdg
 d:liblxqt
-d:compton-conf
 d:libstatgrab
 f:cef02fedcd795ba5863badd9eb2cb0f2:freefont/.footprint
 f:f60a92f476d09124de5ee4f865b41052:freefont/.md5sum
@@ -80,6 +83,8 @@ f:772732a4b357250e9e8676bb28fc8c5a:lxqt-build-tools/.footprint
 f:a2486c9b9b8c582405312eda8329864e:lxqt-build-tools/.md5sum
 f:1f3fb6c6dacd3e17f01984d0efcee482:lxqt-themes/.footprint
 f:290ecd5e3179b164cc197e05581084d8:lxqt-themes/.md5sum
+f:17f9c308c12bf28c36a3637f7359c55b:featherpad/.footprint
+f:f955d9768626356f6ee018dedb1644db:featherpad/.md5sum
 f:ee461bd01503a2746eb231090dcfbfa8:pkgfile
 f:87cbda1dc42eed0924c60a2b05f6f885:menu-cache/.footprint
 f:0af5577c2daf0b26b8110cc0d87f1539:menu-cache/.md5sum
@@ -89,6 +94,9 @@ f:940ddbb02b041966b24af0f4590f9756:teams/.footprint
 f:1d7fe5280a6a536315b0647bb0a165ec:teams/.md5sum
 f:a5bb0107919347f1bfe6814221cdd8df:launch/.footprint
 f:7b272d199392fb204814d26a95ed209f:launch/.md5sum
+f:dcf25ba9fdf8f58510e72f60c0f179e6:quimup/.footprint
+f:ff1374be54a0d5c19ab1eb041516346a:quimup/.md5sum
+f:1540c3bdbe3e5617d1612a4a23d391d3:quimup/quimup.desktop
 f:de75cd185ef810ac091277587ff89c25:wyebadblock/README
 f:3a00062c67d8ebd089dc4c315922188b:wyebadblock/.footprint
 f:e95d2a3af7073360a282f02b0ec05063:wyebadblock/.md5sum
@@ -117,6 +125,9 @@ f:27fa0155e500960236beb64020641db0:lxqt-admin/.footprint
 f:238003fe94026b8342e5b9c3a8c7f088:lxqt-admin/.md5sum
 f:7174abc5c59247efc7bf8dcb14855a22:vimb/.footprint
 f:dee16c65f5ff0b46e6d6796945417e22:vimb/.md5sum
+f:8aab3026042f86dbe7eceef86f8a8463:atk-32/.footprint
+f:bdbc164418df89b1f26674436128d82e:atk-32/.md5sum
+f:d41d8cd98f00b204e9800998ecf8427e:atk-32/.32bit
 f:23b9434d419691bb8f530b2901b352cc:debootstrap/.footprint
 f:cf7c154d6d77a226e85b37ec7accf986:debootstrap/.md5sum
 f:e081d45dcd96d0f2301b685d598b0c2f:firefox-bin/.footprint
@@ -126,6 +137,7 @@ f:a562967c078701d405eff29b0ae220b6:firefox-bin/policies.json
 f:3a68d31ceeef766871cd7e22f13e9d3f:sct/.footprint
 f:29241d60be11b01bdd378091a42132fd:sct/.md5sum
 f:9cfa9a8128a6d50475db1f38288d818b:ncmpcpp/.footprint
+f:280c63a7daf7fd4e54914a633049720a:ncmpcpp/.md5sum
 f:f867cc8b0770f0761cbbe7f3c7b41ebf:lxqt-powermanagement/.footprint
 f:2bf81bd976ec4f943c4e4df096c9a962:lxqt-powermanagement/.md5sum
 f:1a7ba234cae6081eea104d9eb4134727:wpa_gui/.footprint
@@ -152,6 +164,10 @@ f:f0068984298893116d369b6bb621134d:muparser/.footprint
 f:bc8fde5ab27b7ea7ab340f57087dc92c:muparser/.md5sum
 f:14510ba753b0c23cc137efca0908d797:gtk2fontsel/.footprint
 f:06231fbeedd0f48db466880dae5245e5:gtk2fontsel/.md5sum
+f:34dc2e39fa21342c7a3a9a8d96cc8cf4:gdk-pixbuf-32/.footprint
+f:cfc5230bd5337cc4720a1714ed55bf73:gdk-pixbuf-32/.md5sum
+f:f463045bbfb880596e3e0cd22c2a7104:gdk-pixbuf-32/post-install
+f:d41d8cd98f00b204e9800998ecf8427e:gdk-pixbuf-32/.32bit
 f:6d7c0fc7d60409e0570058e0dd6990a5:lximage-qt/.footprint
 f:28fa2f6e908556376cbce6228bc60229:lximage-qt/.md5sum
 f:24f034eefaf6a5c3627d154adc37ca0c:falkon/.md5sum
@@ -167,7 +183,5 @@ f:dbd5ad72651fc882bbabdfe68443035c:libqtxdg/.footprint
 f:acdaa0eafb491670099fa576bbf46e7b:libqtxdg/.md5sum
 f:f07f706584dda93386b90a9870483cd3:liblxqt/.footprint
 f:bd5b9200570113635012bb7220d8aee5:liblxqt/.md5sum
-f:ce54deb443e3e362dd57aa7150a41773:compton-conf/.footprint
-f:3d53cfd8e8971a87819e3f1e30479003:compton-conf/.md5sum
 f:8b2ec9f20ae6b5385a77ed4a20a2a2bd:libstatgrab/.footprint
 f:6012e59c431da7ab111bbc0d6d9705ab:libstatgrab/.md5sum
