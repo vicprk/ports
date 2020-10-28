@@ -1,0 +1,5 @@
+7fc093b563042ee5007883da0483cbdf  crossfile.ini
+26ce530f04ae9a04aaa0acd346c14aa8  gobject-introspection-1.58.3-64bit-multilib.patch
+f43d661d39ff52d33622cb1854aaaf76  gobject-introspection-1.66.1.tar.xz
+e2e5fbd021b9423c57399ecd3a24478d  meson_python_header.diff
+f3bf5c44dbb7aed35562b45ca2a3096a  use_python_header.diff

@@ -1,0 +1,20 @@
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: qt5 taglib libmpdclient
+
+name=quimup
+version=1.4.4
+release=1
+source=(https://sourceforge.net/projects/$name/files/Quimup_${version}_source.tar.gz
+		quimup.desktop)
+
+build()
+{
+	cd Quimup_${version}_source
+	qmake-qt5 PREFIX=/usr -o Makefile quimup.pro
+	make
+
+	install -D -m 755 $SRC/Quimup_${version}_source/quimup $PKG/usr/bin/quimup 
+	install -D -m 755 $SRC/quimup.desktop $PKG/usr/share/applications/quimup.desktop
+
+}
+

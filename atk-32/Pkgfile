@@ -1,0 +1,22 @@
+# Description: A set of interfaces for accessibility
+# URL: https://www.gtk.org/
+# Maintainer: CRUX compat-32 Team, compat-32-ports at crux dot nu
+# Depends on: atk glib-32
+
+name=atk-32
+version=2.36.0
+release=1
+source=(https://download.gnome.org/sources/${name%-*}/${version:0:4}/${name%-*}-$version.tar.xz)
+
+build() {
+	cd ${name%-*}-$version
+
+	export PKG_CONFIG_PATH='/usr/lib32/pkgconfig:/usr/lib/pkgconfig'
+
+	meson build --prefix=/usr --libdir=/usr/lib32 \
+		-Dintrospection=false
+
+	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
+
+	rm -r $PKG/usr/{include,share}
+}
