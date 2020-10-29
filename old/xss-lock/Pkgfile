@@ -1,0 +1,20 @@
+# URL:https://bitbucket.org/raymonad/xss-lock"
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on: glib xorg-xcb-util
+
+name=xss-lock
+version=git
+taghash=1e158fb20108
+release=1
+source=(https://bitbucket.org/raymonad/$name/get/$taghash.zip)
+
+build()
+{
+	cd raymonad-$name-$taghash
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr
+
+	make && make DESTDIR=$PKG install
+	install -Dm644 LICENSE $PKG/usr/share/licenses/$name/LICENSE
+}
+

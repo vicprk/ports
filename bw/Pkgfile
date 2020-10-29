@@ -1,0 +1,17 @@
+# Description: Bitwarden's cli tool's binary
+# URL: https://bitwarden.com
+# Maintainer: victor, victorpr at vivaldi dot net
+# Depends on:
+
+name=bw
+version=1.12.1
+release=1
+source=(https://github.com/bitwarden/cli/releases/download/v$version/$name-linux-$version.zip)
+
+build()
+{
+	chmod +x $SRC/bw
+	mkdir -p $PKG/usr/bin
+	cp $SRC/bw $PKG/usr/bin
+}
+

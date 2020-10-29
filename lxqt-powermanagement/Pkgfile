@@ -1,6 +1,6 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: upower kidletime liblxqt
+# Depends on: kidletime liblxqt
 # Optional: solid
 
 name=lxqt-powermanagement
@@ -12,7 +12,7 @@ build()
 {
 	cmake $name-$version \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DPULL_TRANSLATIONS=off
+		-DPULL_TRANSLATIONS=no
 
 	make && make DESTDIR=$PKG install
 }
