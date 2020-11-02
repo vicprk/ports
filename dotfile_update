@@ -1,9 +1,9 @@
 #!/bin/sh
 
-for i in $(./find); do
+for i in $(~vic/ports/find); do
 		cd $i
-		pkgmk -um
-		pkgmk -uf
+		[ -e .md5sum ] || pkgmk -um
+		[ -e .footprint ] || pkgmk -uf
 done
 
-cd ~/ports
+cd ~vic/ports

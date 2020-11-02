@@ -1,0 +1,175 @@
+freefont
+------------------------------------
+------------------------------------
+pcmanfm-qt
+------------------------------------
+bzip2 libpcre util-linux zlib brotli dbus freetype glib harfbuzz libexif libffi libpcre2 libpng qt5 zstd libfm-qt menu-cache libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+lxqt-about
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+qtstyleplugins
+------------------------------------
+bzip2 libpcre util-linux zlib atk brotli cairo dbus expat fontconfig freetype fribidi gdk-pixbuf glib gtk harfbuzz libffi libpcre2 libpng pango qt5 zstd libglvnd xorg-libpixman xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxinerama xorg-libxrandr xorg-libxrender
+------------------------------------
+obconf-qt
+------------------------------------
+bzip2 libpcre util-linux xz zlib brotli cairo expat fontconfig freetype fribidi gdk-pixbuf glib harfbuzz libffi libpcre2 libpng librsvg libxml2 openbox pango qt5 zstd libglvnd xorg-libice xorg-libpixman xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxft xorg-libxinerama xorg-libxrandr xorg-libxrender
+------------------------------------
+qps
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+slimlock
+------------------------------------
+bzip2 linux-pam util-linux zlib brotli expat fontconfig freetype imlib2 libpng xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxft xorg-libxrandr xorg-libxrender
+------------------------------------
+lxmenu-data
+------------------------------------
+------------------------------------
+lxqt-archiver
+------------------------------------
+bzip2 libpcre util-linux zlib brotli freetype glib harfbuzz json-glib libexif libffi libpcre2 libpng qt5 zstd libfm-qt menu-cache libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+lxqt-globalkeys
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+lxqt-build-tools
+------------------------------------
+------------------------------------
+lxqt-themes
+------------------------------------
+------------------------------------
+featherpad
+------------------------------------
+bzip2 e2fsprogs libpcre openssl util-linux zlib brotli freetype glib harfbuzz hunspell keyutils krb5 libpcre2 libpng qt5 zstd libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+menu-cache
+------------------------------------
+libfm libpcre util-linux zlib glib libffi
+------------------------------------
+qterminal
+------------------------------------
+bzip2 libpcre zlib brotli dbus freetype glib harfbuzz libpcre2 libpng qt5 zstd qtermwidget libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+launch
+------------------------------------
+------------------------------------
+quimup
+------------------------------------
+libmpdclient bzip2 e2fsprogs libpcre openssl zlib brotli freetype glib harfbuzz keyutils krb5 libpcre2 libpng qt5 taglib zstd libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+menumaker
+------------------------------------
+------------------------------------
+lxqt-qtplugin
+------------------------------------
+bzip2 libpcre zlib libdbusmenu-qt5 brotli dbus freetype glib harfbuzz libpcre2 libpng qt5 zstd libqtxdg libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+lxqt-panel
+------------------------------------
+bzip2 eudev libpcre util-linux zlib kwindowsystem libdbusmenu-qt5 solid alsa-lib brotli dbus freetype glib harfbuzz libffi libpcre2 libpng libxkbcommon lm_sensors qt5 zstd liblxqt libqtxdg libstatgrab lxqt-globalkeys libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms xorg-xcb-util
+------------------------------------
+lxqt-runner
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg lxqt-globalkeys libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+lxqt-config
+------------------------------------
+bzip2 eudev libpcre util-linux zlib kwindowsystem libkscreen brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcursor xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+qtermwidget
+------------------------------------
+bzip2 libpcre zlib brotli freetype glib harfbuzz libpcre2 libpng qt5 zstd libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+libsysstat
+------------------------------------
+libpcre zlib glib libpcre2 qt5 zstd
+------------------------------------
+lxqt-admin
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+atk-32
+------------------------------------
+glib-32 libffi-32 libpcre-32
+------------------------------------
+debootstrap
+------------------------------------
+------------------------------------
+sct
+------------------------------------
+xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxrandr xorg-libxrender
+------------------------------------
+ncmpcpp
+------------------------------------
+boost libmpdclient curl ncurses openssl readline zlib taglib zstd
+------------------------------------
+lxqt-powermanagement
+------------------------------------
+bzip2 eudev libpcre util-linux zlib kidletime kwindowsystem solid brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+wpa_gui
+------------------------------------
+bzip2 libpcre zlib brotli freetype glib harfbuzz libpcre2 libpng qt5 zstd libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+lxqt-session
+------------------------------------
+bzip2 eudev libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+libfm-qt
+------------------------------------
+bzip2 libpcre util-linux zlib brotli freetype glib harfbuzz libexif libffi libpcre2 libpng qt5 zstd menu-cache libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+xdg-user-dirs
+------------------------------------
+------------------------------------
+lxqt-policykit
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem polkit-qt5 brotli dbus expat freetype glib harfbuzz libffi libpcre2 libpng polkit qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+lxqt-sudo
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+muparser
+------------------------------------
+------------------------------------
+gtk2fontsel
+------------------------------------
+bzip2 libpcre util-linux zlib atk brotli cairo expat fontconfig freetype fribidi gdk-pixbuf glib gtk harfbuzz libffi libpng pango xorg-libpixman xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxinerama xorg-libxrandr xorg-libxrender
+------------------------------------
+gdk-pixbuf-32
+------------------------------------
+glib-32 libffi-32 libjpeg-turbo-32 libpcre-32 libpng-32 libtiff-32 util-linux-32 xorg-libx11-32 xorg-libxau-32 xorg-libxcb-32 xorg-libxdmcp-32 xz-32 zlib-32
+------------------------------------
+lximage-qt
+------------------------------------
+bzip2 e2fsprogs libpcre openssl util-linux zlib brotli dbus freetype glib harfbuzz keyutils krb5 libexif libffi libpcre2 libpng qt5 zstd libfm-qt menu-cache libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes
+------------------------------------
+falkon
+------------------------------------
+bzip2 e2fsprogs eudev libpcre openssl pciutils util-linux zlib alsa-lib brotli dbus expat fontconfig freetype glib harfbuzz keyutils krb5 lcms2 libevent libjpeg-turbo libpcre2 libpng libvpx libxkbcommon nspr nss opus qt5 qtwebengine zstd libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxi xorg-libxrandr xorg-libxrender xorg-libxscrnsaver xorg-libxtst
+------------------------------------
+lxqt-openssh-askpass
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+lxqt-notificationd
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd liblxqt libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+libqtxdg
+------------------------------------
+bzip2 libpcre util-linux zlib brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd libglvnd xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext
+------------------------------------
+liblxqt
+------------------------------------
+bzip2 libpcre util-linux zlib kwindowsystem brotli dbus freetype glib harfbuzz libffi libpcre2 libpng qt5 zstd libqtxdg libglvnd xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxrender xorg-libxscrnsaver xorg-xcb-util-keysyms
+------------------------------------
+libstatgrab
+------------------------------------
+ncurses
+------------------------------------

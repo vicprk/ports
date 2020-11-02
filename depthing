@@ -1,0 +1,11 @@
+#!/bin/sh
+DELIM='------------------------------------'
+for i in $(./find)
+do
+	prt-get isinst ${i##*/} >/dev/null
+	if [ $? = 0 ]; then
+		echo "${i##*/}\n$DELIM";
+		./depfind ${i##*/} | sed '/^$/d';
+		echo $DELIM
+	fi
+done

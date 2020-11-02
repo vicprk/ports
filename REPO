@@ -25,7 +25,6 @@ d:lxqt-runner
 d:lxqt-config
 d:qtermwidget
 d:gmrun
-d:steghide
 d:libsysstat
 d:lxqt-admin
 d:vimb
@@ -82,6 +81,7 @@ f:772732a4b357250e9e8676bb28fc8c5a:lxqt-build-tools/.footprint
 f:a2486c9b9b8c582405312eda8329864e:lxqt-build-tools/.md5sum
 f:1f3fb6c6dacd3e17f01984d0efcee482:lxqt-themes/.footprint
 f:290ecd5e3179b164cc197e05581084d8:lxqt-themes/.md5sum
+f:9f028a9696f19766ab71251e47e4a1b7:deps.log
 f:17f9c308c12bf28c36a3637f7359c55b:featherpad/.footprint
 f:f955d9768626356f6ee018dedb1644db:featherpad/.md5sum
 f:ee461bd01503a2746eb231090dcfbfa8:pkgfile
@@ -114,11 +114,7 @@ f:9bb2b5b09637a80de7ecc97da6b3b7ed:qtermwidget/.footprint
 f:cb2d9390284a60a3c84a2a036107e5c2:qtermwidget/.md5sum
 f:805a710ac8b1d0c007316488c54b82c1:gmrun/.footprint
 f:31b0af22531900ecfb2a6b2e5a14cb6d:gmrun/.md5sum
-f:006454fd0d654c48907682db5e0857e2:steghide/.md5sum
-f:fd861dc5a0a392c6c94a61e85ad74f29:steghide/template-headers.diff
-f:897ce18edd008293a3328bc3f88775b3:steghide/climit.diff
-f:e4a82fd9e9a33594525d0cdd14e930fc:steghide/float-constexpr.diff
-f:572c1f47ff25eae23e00d7a7fee01fea:libsysstat/.footprint
+f:6adaa8ae76699f036433397e3f6185b2:libsysstat/.footprint
 f:e7a159e346ae428a2f04d7a2a9ebb0b7:libsysstat/.md5sum
 f:27fa0155e500960236beb64020641db0:lxqt-admin/.footprint
 f:238003fe94026b8342e5b9c3a8c7f088:lxqt-admin/.md5sum
@@ -127,6 +123,7 @@ f:dee16c65f5ff0b46e6d6796945417e22:vimb/.md5sum
 f:8aab3026042f86dbe7eceef86f8a8463:atk-32/.footprint
 f:bdbc164418df89b1f26674436128d82e:atk-32/.md5sum
 f:d41d8cd98f00b204e9800998ecf8427e:atk-32/.32bit
+f:db4dcaaafc3394d1e60bab36ddfbf7cb:depthing
 f:23b9434d419691bb8f530b2901b352cc:debootstrap/.footprint
 f:cf7c154d6d77a226e85b37ec7accf986:debootstrap/.md5sum
 f:3a68d31ceeef766871cd7e22f13e9d3f:sct/.footprint
@@ -141,7 +138,7 @@ f:b1aab088446f49173ec5e9d19db643b1:lxqt-session/.footprint
 f:1d1dbba1b445e4182b7f1ea9977a6b1d:lxqt-session/.md5sum
 f:718a243dddc374c03d78c5c5a85d7375:libfm-qt/.footprint
 f:b0cbd194b0ed988f3266fb20f5be61ba:libfm-qt/.md5sum
-f:a4c16e29ec12204a96458d9cba4f3501:dotfile_update
+f:9e3504672e74eb7d5b21589d58d0395c:dotfile_update
 f:5a1a97d9455cde54f1e1a0b66f76aba8:xdg-user-dirs/.footprint
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:d0516ceb5a6c804a5848c20df9b6b569:cantata/.footprint

@@ -10,8 +10,7 @@ source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 build()
 {
 	cmake $name-$version \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBDIR=/usr/bin
+		-DCMAKE_INSTALL_PREFIX=/usr
 
 	make && make DESTDIR=$PKG install
 }

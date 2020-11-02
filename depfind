@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $1
+finddeps ${PWD##*/} | cut -d " " -f1 | sed -e '/\(glibc\|binutils\|gcc\)/d' | xargs
+cd ..
