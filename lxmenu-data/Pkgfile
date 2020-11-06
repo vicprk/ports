@@ -14,5 +14,5 @@ build()
 			--prefix=/usr \
 			--sysconfdir=/etc
 
-	make DESTDIR=$PKG install
+	make && make DESTDIR=$PKG install
 }
