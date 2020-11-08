@@ -1,9 +1,9 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: xorg-libxcomposite libdbusmenu-qt5 kguiaddons kwindowsystem solid menu-cache lxmenu-data liblxqt lxqt-globalkeys alsa-lib libstatgrab libsysstat
+# Depends on: xorg-libxcomposite libdbusmenu-qt5 kguiaddons kwindowsystem menu-cache lxmenu-data liblxqt lxqt-globalkeys alsa-lib libstatgrab libsysstat
 
 name=lxqt-panel
-version=0.15.1
+version=0.16.0
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 
@@ -13,6 +13,7 @@ build()
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DVOLUME_USE_PULSEAUDIO=off \
+		-DMOUNT_PLUGIN=off \
 		-DPULL_TRANSLATIONS=off
 
 	make && make DESTDIR=$PKG install

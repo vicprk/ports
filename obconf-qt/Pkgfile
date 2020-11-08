@@ -4,7 +4,7 @@
 # Optional: gtk
 
 name=obconf-qt
-version=0.15.0
+version=0.16.0
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 

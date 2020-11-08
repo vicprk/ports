@@ -3,7 +3,7 @@
 # Depends on: xdg-user-dirs liblxqt
 
 name=lxqt-session
-version=0.15.0
+version=0.16.0
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 

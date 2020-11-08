@@ -3,7 +3,7 @@
 # Depends on: lxqt-build-tools
 
 name=libsysstat
-version=0.4.3
+version=0.4.4
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 
