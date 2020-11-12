@@ -1,6 +1,6 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: qt5 libfm-qt glib
+# Depends on: qt5 libfm-qt glib json-glib
 
 name=lxqt-archiver
 version=0.2.0

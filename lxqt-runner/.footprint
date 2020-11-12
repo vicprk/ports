@@ -26,6 +26,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-runner/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_ia.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_id.qm
@@ -40,7 +41,6 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-runner/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_pt_BR.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_ro_RO.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_ru.qm
--rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_ru_RU.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_sk.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_sk_SK.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-runner/lxqt-runner_sl.qm

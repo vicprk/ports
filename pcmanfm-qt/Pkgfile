@@ -1,6 +1,6 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: qt5 lxmenu-data liblxqt libfm-qt
+# Depends on: qt5 lxmenu-data liblxqt libfm-qt exif
 
 name=pcmanfm-qt
 version=0.16.0

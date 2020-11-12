@@ -1,6 +1,6 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: xorg-libxcomposite libdbusmenu-qt5 kguiaddons kwindowsystem menu-cache lxmenu-data liblxqt lxqt-globalkeys alsa-lib libstatgrab libsysstat
+# Depends on: xorg-libxcomposite libdbusmenu-qt5 kguiaddons kwindowsystem menu-cache lxmenu-data liblxqt lxqt-globalkeys alsa-lib libstatgrab libsysstat lm_sensors
 
 name=lxqt-panel
 version=0.16.0

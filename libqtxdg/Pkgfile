@@ -4,7 +4,7 @@
 # Optional:gtk
 
 name=libqtxdg
-version=3.5.0
+version=3.6.0
 release=1
 source=(https://github.com/lxqt/$name/archive/$version/$name-$version.tar.gz)
 

@@ -1,7 +1,6 @@
 # URL:https://lxqt.github.io
 # Maintainer: victor, victorpr at vivaldi dot net
-# Depends on: kidletime liblxqt
-# Optional: solid
+# Depends on: kidletime liblxqt upower solid
 
 name=lxqt-powermanagement
 version=0.16.0

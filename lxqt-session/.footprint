@@ -46,6 +46,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-session/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_ia.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-session/lxqt-config-session_id.qm
@@ -89,6 +90,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-leave/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_it.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_ja.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_ko.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_lt.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_nb_NO.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-leave/lxqt-leave_nl.qm

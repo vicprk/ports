@@ -57,6 +57,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-notificationd/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_it.qm
@@ -69,7 +70,6 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-notificationd/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_pt.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_pt_BR.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ru.qm
--rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ru_RU.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_sk_SK.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_sv.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_tr.qm

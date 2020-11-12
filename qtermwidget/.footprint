@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/qtermwidget5/
 -rw-r--r--	root/root	usr/include/qtermwidget5/Emulation.h
 -rw-r--r--	root/root	usr/include/qtermwidget5/Filter.h
+-rw-r--r--	root/root	usr/include/qtermwidget5/KeyboardTranslator.h
 -rw-r--r--	root/root	usr/include/qtermwidget5/qtermwidget.h
 -rw-r--r--	root/root	usr/include/qtermwidget5/qtermwidget_export.h
 -rw-r--r--	root/root	usr/include/qtermwidget5/qtermwidget_version.h
@@ -14,8 +15,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/qtermwidget5/
 -rw-r--r--	root/root	usr/lib/cmake/qtermwidget5/qtermwidget5-targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/qtermwidget5/qtermwidget5-targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libqtermwidget5.so -> libqtermwidget5.so.0
-lrwxrwxrwx	root/root	usr/lib/libqtermwidget5.so.0 -> libqtermwidget5.so.0.15.0
--rwxr-xr-x	root/root	usr/lib/libqtermwidget5.so.0.15.0
+lrwxrwxrwx	root/root	usr/lib/libqtermwidget5.so.0 -> libqtermwidget5.so.0.16.0
+-rwxr-xr-x	root/root	usr/lib/libqtermwidget5.so.0.16.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/qtermwidget5.pc
 drwxr-xr-x	root/root	usr/share/
@@ -70,7 +71,9 @@ drwxr-xr-x	root/root	usr/share/qtermwidget5/translations/
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_fr.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_gl.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_he.qm
+-rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_hr.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_hu.qm
+-rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_it.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_ja.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_lt.qm
 -rw-r--r--	root/root	usr/share/qtermwidget5/translations/qtermwidget_nb_NO.qm

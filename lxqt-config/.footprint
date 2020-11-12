@@ -23,6 +23,9 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/lxqt-config-locale.desktop
 -rw-r--r--	root/root	usr/share/applications/lxqt-config-monitor.desktop
 -rw-r--r--	root/root	usr/share/applications/lxqt-config.desktop
+drwxr-xr-x	root/root	usr/share/desktop-directories/
+-rw-r--r--	root/root	usr/share/desktop-directories/lxqt-settings-lxqt.directory
+-rw-r--r--	root/root	usr/share/desktop-directories/lxqt-settings-system.directory
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
@@ -52,6 +55,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-appearance/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_ia.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-appearance/lxqt-config-appearance_id.qm
@@ -93,6 +97,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-brightness/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-brightness/lxqt-config-brightness_it.qm
@@ -128,6 +133,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-cursor/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-cursor/lxqt-config-cursor_it.qm
@@ -164,6 +170,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-file-associations/lxqt-config-file-associations_it.qm
@@ -235,6 +242,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-locale/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-locale/lxqt-config-locale_it.qm
@@ -267,6 +275,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config-monitor/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config-monitor/lxqt-config-monitor_it.qm
@@ -303,6 +312,7 @@ drwxr-xr-x	root/root	usr/share/lxqt/translations/lxqt-config/
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_fr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_gl.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_he.qm
+-rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_hr.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_hu.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_id.qm
 -rw-r--r--	root/root	usr/share/lxqt/translations/lxqt-config/lxqt-config_it.qm

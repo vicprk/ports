@@ -1,9 +1,0 @@
-#!/bin/sh
-
-for i in $(~vic/ports/find); do
-		cd $i
-		[ -e .md5sum ] || pkgmk -um
-		[ -e .footprint ] || pkgmk -uf
-done
-
-cd ~vic/ports

@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/share/qps/translations/
 -rw-r--r--	root/root	usr/share/qps/translations/qps_fr.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_gl.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_he.qm
+-rw-r--r--	root/root	usr/share/qps/translations/qps_hr.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_hu.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_id.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_it.qm
@@ -38,3 +39,4 @@ drwxr-xr-x	root/root	usr/share/qps/translations/
 -rw-r--r--	root/root	usr/share/qps/translations/qps_pt_BR.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_ru.qm
 -rw-r--r--	root/root	usr/share/qps/translations/qps_sk_SK.qm
+-rw-r--r--	root/root	usr/share/qps/translations/qps_tr.qm

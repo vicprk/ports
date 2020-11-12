@@ -66,6 +66,7 @@ drwxr-xr-x	root/root	usr/include/libfm-qt/customactions/
 -rw-r--r--	root/root	usr/include/libfm-qt/editbookmarksdialog.h
 -rw-r--r--	root/root	usr/include/libfm-qt/execfiledialog_p.h
 -rw-r--r--	root/root	usr/include/libfm-qt/filedialog.h
+-rw-r--r--	root/root	usr/include/libfm-qt/filedialog_p.h
 -rw-r--r--	root/root	usr/include/libfm-qt/filedialoghelper.h
 -rw-r--r--	root/root	usr/include/libfm-qt/filelauncher.h
 -rw-r--r--	root/root	usr/include/libfm-qt/filemenu.h
@@ -105,9 +106,9 @@ drwxr-xr-x	root/root	usr/include/libfm-qt/translations/
 -rw-r--r--	root/root	usr/include/libfm-qt/utilities_p.h
 -rw-r--r--	root/root	usr/include/libfm-qt/xdndworkaround.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libfm-qt.so -> libfm-qt.so.7
-lrwxrwxrwx	root/root	usr/lib/libfm-qt.so.7 -> libfm-qt.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libfm-qt.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libfm-qt.so -> libfm-qt.so.8
+lrwxrwxrwx	root/root	usr/lib/libfm-qt.so.8 -> libfm-qt.so.8.0.0
+-rwxr-xr-x	root/root	usr/lib/libfm-qt.so.8.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libfm-qt.pc
 drwxr-xr-x	root/root	usr/share/
@@ -135,10 +136,12 @@ drwxr-xr-x	root/root	usr/share/libfm-qt/translations/
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_fr.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_gl.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_he.qm
+-rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_hr.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_hu.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_id.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_it.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_ja.qm
+-rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_ko.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_lt.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_nb_NO.qm
 -rw-r--r--	root/root	usr/share/libfm-qt/translations/libfm-qt_nl.qm

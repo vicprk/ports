@@ -1,3 +1,0 @@
-#!/bin/sh
-
-tree -I 'orig|order|*sh|template|tree|old' -a
